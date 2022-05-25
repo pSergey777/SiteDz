@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: #222222;
+    height: 75px;
+    width: 100%
+}
+
+.menu_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+}
+
+
+.logo_main_menu {
+    margin-right: 41px;
+}
+
+.logo_account,
+.logo_basket {
+    margin-left: 33px;
+}
+
+.title {
+    background-color: #F1E4E6;
+    Height: 764px;
+    width: 100%;
+}
+
+.title_content {
+    display: flex;
+}
+
+.man {
+    background-image: url(images/man.png);
+    width: 800.58px;
+    height: 764px;
+    margin-left: -225px;
+}
+
+.title_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 64px;
+
+}
+
+.block_text {
+    background-color: #F16D7F;
+    Width: 12px;
+    Height: 92px;
+}
+
+.big_text {
+    /*background-image: url(images/TEXT\ THE\ BRAND\ OF\ LUXERIOUS\ FASHION.png);
+background-repeat: no-repeat;
+background-position: center;*/
+    margin-left: 16px;
+    Width: 377px;
+    Height: 93px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.norm_text {
+    line-height: 38.4px;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 32px;
+    margin-left: 16px;
+}
+
+.red_text {
+    line-height: 38.4px;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 32px;
+    color: #F16D7F;
+}
+
+.small_card {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_women_photo,
+.card_men_photo,
+.card_kids_photo {
+    filter: brightness(50%);
+    Width: 360px;
+    Height: 260px;
+}
+
+.card_women {
+    position: relative;
+}
+
+.card_women_text {
+    position: absolute;
+    top: 105px;
+    left: 103px;
+    text-align: center;
+}
+
+.text_women_off {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text_women_for {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: center;
+    color: #F16D7F;
+}
+
+.card_men {
+    position: relative;
+}
+
+.card_men_text {
+    position: absolute;
+    top: 105px;
+    left: 125px;
+    text-align: center;
+}
+
+.text_men_off {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text_men_for {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: center;
+    color: #F16D7F;
+}
+
+.card_kids {
+    position: relative;
+}
+
+.card_kids_text {
+    position: absolute;
+    top: 105px;
+    left: 123px;
+    text-align: center;
+}
+
+.text_kids_off {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text_kids_for {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: center;
+    color: #F16D7F;
+}
+
+.card_accesories_photo {
+    Width: 1140px;
+    Height: 180px;
+    filter: brightness(50%);
+}
+
+.card_accesories {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.card_accesories_text {
+    position: absolute;
+    top: 65px;
+    left: 490px;
+    text-align: center;
+}
+
+.text_accesories_off {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text_accesories_for {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: center;
+    color: #F16D7F;
+}
