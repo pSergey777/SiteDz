@@ -18,18 +18,105 @@
 .menu_button {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding-top: 18px;
 }
 
+.menu_button__left,
+.menu_button__right {
+    display: flex;
+    align-items: center;
+}
 
-.logo_main_menu {
+.logo_home_menu {
     margin-right: 41px;
 }
 
-.logo_account,
+.logo_menu {
+    list-style: none;
+    position: relative;
+}
+
+.submenu {
+    Width: 232px;
+    Height: 764px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 47px;
+    display: none;
+    box-shadow: 0 6px 4px 0px rgb(0 0 0 / 20%);
+}
+
+.logo_submenu {
+    padding: 0 25px 25px 0;
+}
+
+.submenu_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submenu_header {
+    padding-left: 34px;
+    padding-top: 37px;
+    padding-bottom: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.logo_menu:hover .submenu {
+    display: block;
+}
+
+.close {
+    padding-top: 16px;
+    padding-right: 16px;
+}
+
+.submenu_block {
+    list-style: none;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.submenu_gender {
+    padding-left: 33px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+}
+
+.submenu_link {
+    text-decoration: none;
+    padding-left: 54.5px;
+    padding-top: 11px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+
+.submenu_link__Accessories {
+    padding-top: 12px;
+}
+
+.submenu_link__down {
+    padding-top: 16px;
+}
+
+.submenu_link:hover {
+    color: #F16D7F;
+    ;
+}
+
 .logo_basket {
-    margin-left: 33px;
+    margin-left: 42px;
+    padding-bottom: 8px;
 }
 
 .title {
@@ -61,6 +148,7 @@
     background-color: #F16D7F;
     Width: 12px;
     Height: 92px;
+    text-decoration: none;
 }
 
 .big_text {
@@ -75,6 +163,7 @@ background-position: center;*/
     font-size: 48px;
     line-height: 58px;
 }
+
 
 .norm_text {
     line-height: 38.4px;
@@ -258,10 +347,42 @@ background-position: center;*/
     Width: 360px;
     Height: 581px;
     background-color: #F8F8F8;
+    position: relative;
 }
 
 .block:hover .block_photo {
     filter: brightness(50%);
+}
+
+.block:hover .block_basket {
+    display: flex;
+}
+
+.block_basket {
+    border: 1px solid #FFFFFF;
+    Width: 138px;
+    Height: 43px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 188.5px;
+    left: 111.5px;
+    color: #FFFFFF;
+    display: none;
+}
+
+.block_basket__logo {
+    Width: 25.99px;
+    Height: 23.97px;
+}
+
+.block_basket__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 11px;
+
 }
 
 .block__heading {
@@ -290,6 +411,10 @@ background-position: center;*/
     line-height: 19px;
     color: #F16D7F;
     padding-top: 18px;
+}
+
+.block_underline {
+    text-decoration: none;
 }
 
 .content_button {
@@ -495,39 +620,11 @@ background-position: center;*/
 }
 
 .logo {
-    margin-right: 7px;
-padding: 32px 32px;
+    padding: 10px;
+    color: #000000;
     background-color: #fff;
+    margin-left: 7.5px;
 }
-
-.logo_fb {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-.logo_inst {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 9px;
-    padding-right: 9px;
-}
-
-.logo_p {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.logo_tw {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 9px;
-    padding-right: 9px;
-}
-
 
 .logo:hover {
     background: #F16D7F;
