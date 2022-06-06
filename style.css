@@ -348,6 +348,7 @@ background-position: center;*/
     Height: 581px;
     background-color: #F8F8F8;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .block:hover .block_photo {
@@ -651,6 +652,8 @@ background-position: center;*/
 
 .registration_form {
     margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .registration_input {
@@ -675,7 +678,7 @@ background-position: center;*/
     font-weight: 300;
     font-size: 13px;
     line-height: 16px;
-    color: #B1B1B1;
+
 }
 
 .registration_input__lastName {
@@ -688,7 +691,6 @@ background-position: center;*/
     font-weight: 300;
     font-size: 13px;
     line-height: 16px;
-    color: #B1B1B1;
 
 }
 
@@ -707,4 +709,74 @@ background-position: center;*/
     line-height: 13px;
 }
 
+.registration_input_info {
+    Width: 359px;
+    Height: 32px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    padding-top: 15.5px;
+}
+
+.button_registration {
+    height: 50px;
+    width: 167px;
+    background-color: #F16D7F;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    margin-top: 39px;
+    margin-bottom: 96px;
+}
+
+.button_registration__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding-left: 29px;
+}
+
+.button_registration__right {
+    height: 9.918609619140625px;
+    width: 17.00094985961914px;
+    padding-right: 20px;
+}
+
+.registration_info__header {
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+margin-bottom: 22px;
+}
+
+.registration_info__miniheader {
+    font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+height: 58px;
+width: 652px;
+margin-bottom: 21px;
+}
+
+.registration_info__list {
+list-style-image: url(images/registration/Vector\ \(6\).svg);
+    list-style-position: inside;
+    line-height: 2.8;
+}
+
+.registration_info__list_text {
+    padding-left: 23px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px; 
+    margin-bottom: 16px;
+}
 
