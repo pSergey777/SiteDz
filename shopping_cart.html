@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop registration</title>
+    <title>Basket</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,45 +63,71 @@
                     </div>
                 </div>
             </nav>
-            <div class="registration_heading">
-                <h1 class="registration_heading__text container">REGISTRATION</h1>
+            <div class="shopping_cart_heading">
+                <h1 class="shopping_cart_heading__text container">SHOPPING CART</h1>
             </div>
         </div>
-    </header>    
-<main>
-<div class="registration_form container">
-    <div class="registration_input">
-    <form action="#">       
-    <p class="registration_input__heading">Your Name</p>
-    <input class="registration_input__firstName" type="text" id="name" placeholder="First Name">
-    <input class="registration_input__lastName" type="text" id="surname" placeholder="Last Name">
-    <div class="registration_gender">
-        <input type="radio" name="gender" value="male"><span class="registration_gender__male">Male</span><br>
-        <input type="radio" name="gender" value="male"><span class="registration_gender__male">Female</span><br>
-    </div>
-<p class="registration_input__heading">Login details</p>
-<input class="registration_input__firstName" type="email" id="email" placeholder="Email">
-<input class="registration_input__lastName" type="password" placeholder="Password">  
-<p class="registration_input_info">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
-<a class="button_registration" href="">
-    <p class="button_registration__text">JOIN NOW</p>
-    <img class="button_registration__right" src="images/registration/Group.svg" alt="right">
-</a> </form> 
-    </div>
-    <div class="registration_info">
-        <h2 class="registration_info__header">LOYALTY HAS ITS PERKS</h2>
-        <h3 class="registration_info__miniheader">Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</h3>
-        <ul class="registration_info__list">
-            <li><span class="registration_info__list_text">15% off welcome offer</span></li>
-            <li><span class="registration_info__list_text">Free shipping, returns and exchanges on all orders</li>
-            <li><span class="registration_info__list_text">$10 off a purchase on your birthday</li>
-            <li><span class="registration_info__list_text">Early access to products</li>
-            <li><span class="registration_info__list_text">Exclusive offers & rewards</li>
-        </ul>
-    </div>
-</div>
-</main>
-<footer>
+    </header>
+    <main>
+      <div class="shopping_cart_common_block container">
+        <div class="shopping_cart_content">
+            <div class="shopping_cart__card">
+                <img src="images/shopping_cart/man1.png" alt="people">
+                <div class="shopping_cart__card_info">
+                    <h3 class="shopping_cart__card_header">MANGO  PEOPLE  T-SHIRT</h3>
+                    <p class="shopping_cart__card_text">Price: <span style="color:#F16D7F"> $300</span></p>
+                    <p class="shopping_cart__card_text">Color: Red</p>
+                    <p class="shopping_cart__card_text">Size: Xl</p>
+                    <div class="shopping_cart__card_text_info">
+                        <p class="shopping_cart__card_text">Quantity:</p>
+                        <input type="number" min="0" value="2" class="shopping_cart__card_text_number">
+                    </div>                     
+                </div>
+                <a class="shopping_cart__card_close" href=""><img src="images/shopping_cart/close.svg" alt="button_close"></a> 
+            </div>
+            <div class="shopping_cart__card">
+                <img src="images/shopping_cart/man2.png" alt="people">
+                <div class="shopping_cart__card_info">
+                    <h3 class="shopping_cart__card_header">MANGO  PEOPLE  T-SHIRT</h3>
+                    <p class="shopping_cart__card_text">Price: <span style="color:#F16D7F"> $300</span></p>
+                    <p class="shopping_cart__card_text">Color: Red</p>
+                    <p class="shopping_cart__card_text">Size: Xl</p>
+                    <div class="shopping_cart__card_text_info">
+                        <p class="shopping_cart__card_text">Quantity:</p>
+                        <input type="number" min="0" value="2" class="shopping_cart__card_text_number">
+                    </div>                
+                </div>
+                <a class="shopping_cart__card_close" href=""><img src="images/shopping_cart/close.svg" alt="button_close"></a> 
+            </div>
+            <div class="shopping_cart_button">
+                    <a href="#" class="shopping_cart__button_setting">CLEAR SHOPPING CART</a>
+                    <a href="#" class="shopping_cart__button_setting">CONTINUE SHOPPING</a>
+            </div>
+        </div>
+        <div class="shopping_cart_adress">
+            <div class="shopping_cart__shipping_adress">
+                <form action="#">
+                    <h3 class="shopping_cart__input_header">SHIPPING ADRESS</h3>
+                    <div class="shopping_cart__input">
+                        <input class="shopping_cart__input_adress" type="text" placeholder="Bangladesh">
+                        <input class="shopping_cart__input_adress" type="text" placeholder="State">
+                        <input class="shopping_cart__input_adress" type="number" min="0" max="999999" placeholder="Postcode / Zip">
+                    </div>
+                    <div class="shopping_cart__button">
+                        <a href="" class="shopping_cart__input_button">GET A QUOTE</a>
+                    </div>
+                </form>
+            </div>
+            <div class="shopping_cart__total">
+                <p class="shopping_cart__total_text_sub">SUB TOTAL<span style="margin-left: 25px;">$900</span></p>
+                <p class="shopping_cart__total_text_grand">GRAND TOTAL<span style="margin-left: 25px; color:#F16D7F; font-weight: 400; ">$900</span></p>
+                <div class="shopping_cart__total_line"></div>
+                    <a href="#" class="shopping_cart__total_button">PROCEED TO CHECKOUT</a> 
+            </div>
+        </div>
+      </div>  
+    </main>
+    <footer>
     <div class="footer">
         <div class="top_info">
             <div class="footer__block_info container">
