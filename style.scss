@@ -6,6 +6,21 @@
 
 $main_color:#F16D7F;
 
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.body__wrapper {
+    flex: 1 1 auto;
+}
+
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -461,7 +476,7 @@ background-position: center;*/
     
 }
 
-.top_info {
+.bot_info {
     background-color: #222224;
     width: 100%;
     height: 341px;
@@ -604,13 +619,12 @@ background-position: center;*/
     line-height: 17px;
     display: flex;
     align-items: center;
-    width: 256px;
+    width: 234px;
     height: 49px;
     border-radius: 20px 0 0 20px;
-    text-align: center;
     background: #E1E1E1;
     border: none;
-    padding-left: 10px;
+    padding-left: 22px;
     padding-right: 15px;
 }
 
@@ -710,7 +724,7 @@ background-position: center;*/
 }
 
 .registration_input__firstName {
-    Width: 358px;
+    Width: 345px;
     Height: 44px;
     padding-left: 17px;
     margin-top: 20.5px;
@@ -719,11 +733,11 @@ background-position: center;*/
     font-weight: 300;
     font-size: 13px;
     line-height: 16px;
-
+    padding-right: 13px;
 }
 
 .registration_input__lastName {
-    Width: 358px;
+    Width: 345px;
     Height: 44px;
     padding-left: 17px;
     margin-top: 20.5px;
@@ -732,7 +746,7 @@ background-position: center;*/
     font-weight: 300;
     font-size: 13px;
     line-height: 16px;
-
+    padding-right: 13px;
 }
 
 .registration_gender {
@@ -1271,6 +1285,7 @@ margin-left: 10px;
 
 .lady {
 margin-top: 11px;
+margin-bottom: 58px;
 }
 
 .catalog_content {
@@ -1279,6 +1294,8 @@ flex-direction: column;
 align-items: center;
 border: 1px solid #EAEAEA;
 margin-bottom: 129.41px;
+margin-top: -50px;
+    background-color: #fff;
 }
 
 .catalog_info {
