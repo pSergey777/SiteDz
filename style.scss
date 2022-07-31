@@ -1901,23 +1901,23 @@ line-height: 153.2%;
     margin: 0;
     }
 
-        /*страница catalog*/
+    /*страница catalog*/
 
 
-        .slider {
+    .slider {
             width: 100%;
         }
 
-        .lady {
+    .lady {
             width: 100%;
             padding: 85px 0 85px 0;
         }
 
-        .slider_button {
+    .slider_button {
             position: absolute;
         }
 
-        .slider_button__right_mobile {
+    .slider_button__right_mobile {
             right: 0;
         }
 
@@ -1969,6 +1969,51 @@ line-height: 153.2%;
             flex-direction: column;
         }
 
+        .shopping_cart__card {
+            width: 100%;
+            height: 188px;
+            margin-bottom: 32px;
+        }
+
+        .shopping_cart__card_info {
+            margin-left: 17.02px;
+            width: 48%;
+        }
+
+        .shopping_cart__photo {
+            width: 100%;
+            height: 188px;
+        }
+
+        .shopping_cart__card_header {
+            font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #222222;
+margin-top: 13.52px;
+margin-bottom: 25.85px;
+width: 98%;
+height: 35.63px;
+
+        }
+
+        .shopping_cart__card_text {
+            font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #575757;
+        }
+
+        .shopping_cart__card_close {
+            margin-top: 17.2px;
+            margin-right: 17.2px; 
+        }
+
+        .shopping_cart__card_close_image {
+            height: 11.058823585510254px;
+width: 9.883435249328613px;
+        }
+
         .shopping_cart__total {
             width: 100%;
         }
@@ -1977,9 +2022,41 @@ line-height: 153.2%;
             margin-left: 43px;
         }
 
+        .shopping_cart_button {
+            margin-top: 0;
+            margin-bottom: 48.33px;
+        }
+
+        .shopping_cart__button_setting {
+        padding: 0;
+    width: 48%;
+    height: 33px;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #575757;
+    display: grid;
+    }
+
+
         .shopping_cart__total_button {
             margin: 17px 43px 43px 43px;
         }
+
+        .shopping_cart__shipping_adress {
+            width: 100%;
+        }
+
+        .shopping_cart__input_adress {
+            font-weight: 300;
+font-size: 13px;
+line-height: 16px;
+color: #B1B1B1;
+        }
+
+
 
          /*страница registration*/
 
