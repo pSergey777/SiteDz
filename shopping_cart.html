@@ -14,6 +14,7 @@
         rel="stylesheet">
 </head>
 <body>
+<div class="wrapper">
     <header>
         <div class="header">
             <nav>
@@ -29,7 +30,7 @@
                                 <div class="submenu">
                                     <div class="submenu_top">
                                         <h3 class="submenu_header">MENU</h3>
-                                        <a class="close" href="registration.html"><img src="images/close.svg" alt="button_close"></a>
+                                        <a class="close" href="shopping_cart.html"><img src="images/close.svg" alt="button_close"></a>
                                     </div>
                                     <div class="submenu_block">
                                         <h3 class="submenu_gender">MAN</h3>
@@ -63,123 +64,117 @@
                     </div>
                 </div>
             </nav>
+        </div>
+    </header>
+    <section>
+        <div class="body__wrapper">
             <div class="shopping_cart_heading">
                 <h1 class="shopping_cart_heading__text container">SHOPPING CART</h1>
             </div>
-        </div>
-    </header>
-    <main>
-      <div class="shopping_cart_common_block container">
-        <div class="shopping_cart_content">
-            <div class="shopping_cart__card">
-                <img src="images/shopping_cart/man1.png" alt="people">
-                <div class="shopping_cart__card_info">
-                    <h3 class="shopping_cart__card_header">MANGO  PEOPLE  T-SHIRT</h3>
-                    <p class="shopping_cart__card_text">Price: <span style="color:#F16D7F"> $300</span></p>
-                    <p class="shopping_cart__card_text">Color: Red</p>
-                    <p class="shopping_cart__card_text">Size: Xl</p>
-                    <div class="shopping_cart__card_text_info">
-                        <p class="shopping_cart__card_text">Quantity:</p>
-                        <input type="number" min="0" value="2" class="shopping_cart__card_text_number">
-                    </div>                     
+          <div class="shopping_cart_common_block container">
+            <div class="shopping_cart_content">
+                <a href="catalog.html" class="shopping_cart__link">
+                    <div class="shopping_cart__card">                                
+                        <img class="shopping_cart__photo" src="images/shopping_cart/man1.png" alt="people">
+                    </a>
+                        <div class="shopping_cart__card_info">
+                            <div class="shopping_cart__card_info_text">
+                                <h3 class="shopping_cart__card_header">MANGO  PEOPLE  T-SHIRT</h3>
+                            <p class="shopping_cart__card_text">Price: <span style="color:#F16D7F"> $300</span></p>
+                            <p class="shopping_cart__card_text">Color: Red</p>
+                            <p class="shopping_cart__card_text">Size: Xl</p>
+                            <div class="shopping_cart__card_text_info">
+                                <p class="shopping_cart__card_text">Quantity:</p>
+                                <input type="number" min="0" value="2" class="shopping_cart__card_text_number">
+                            </div>
+                        </div>
+                            <button class="shopping_cart__card_close"><img class="shopping_cart__card_close_image" src="images/shopping_cart/close.svg" alt="close">    
+                            </button>                        
+                       </div>
+                    </div>                                   
+                <a href="catalog.html" class="shopping_cart__link">
+                    <div class="shopping_cart__card">                                
+                        <img src="images/shopping_cart/man2.png" class="shopping_cart__photo" alt="people">
+                    </a> 
+                        <div class="shopping_cart__card_info">
+                            <div class="shopping_cart__card_info_text">
+                                <h3 class="shopping_cart__card_header">MANGO  PEOPLE  T-SHIRT</h3>
+                            <p class="shopping_cart__card_text">Price: <span style="color:#F16D7F"> $300</span></p>
+                            <p class="shopping_cart__card_text">Color: Red</p>
+                            <p class="shopping_cart__card_text">Size: Xl</p>
+                            <div href="#" class="shopping_cart__card_text_info">
+                                <p class="shopping_cart__card_text">Quantity:</p>
+                                <input type="number" min="0" value="2" class="shopping_cart__card_text_number">
+                            </div>
+                        </div>
+                            <button class="shopping_cart__card_close"><img class="shopping_cart__card_close_image" src="images/shopping_cart/close.svg" alt="close">    
+                            </button>                        
+                       </div>
+                    </div>              
+                <div class="shopping_cart_button">
+                        <a href="#" class="shopping_cart__button_setting">CLEAR SHOPPING CART</a>
+                        <a href="#" class="shopping_cart__button_setting">CONTINUE SHOPPING</a>
                 </div>
-                <a class="shopping_cart__card_close" href=""><img src="images/shopping_cart/close.svg" alt="button_close"></a> 
             </div>
-            <div class="shopping_cart__card">
-                <img src="images/shopping_cart/man2.png" alt="people">
-                <div class="shopping_cart__card_info">
-                    <h3 class="shopping_cart__card_header">MANGO  PEOPLE  T-SHIRT</h3>
-                    <p class="shopping_cart__card_text">Price: <span style="color:#F16D7F"> $300</span></p>
-                    <p class="shopping_cart__card_text">Color: Red</p>
-                    <p class="shopping_cart__card_text">Size: Xl</p>
-                    <div class="shopping_cart__card_text_info">
-                        <p class="shopping_cart__card_text">Quantity:</p>
-                        <input type="number" min="0" value="2" class="shopping_cart__card_text_number">
-                    </div>                
+            <div class="shopping_cart_adress">
+                <div class="shopping_cart__shipping_adress">
+                    <form action="#">
+                        <h3 class="shopping_cart__input_header">SHIPPING ADRESS</h3>
+                        <div class="shopping_cart__input">
+                            <input class="shopping_cart__input_adress" type="text" placeholder="Bangladesh">
+                            <input class="shopping_cart__input_adress" type="text" placeholder="State">
+                            <input class="shopping_cart__input_adress" type="number" min="0" max="999999" placeholder="Postcode / Zip">
+                        </div>
+                        <div class="shopping_cart__button">
+                            <a href="" class="shopping_cart__input_button">GET A QUOTE</a>
+                        </div>
+                    </form>
                 </div>
-                <a class="shopping_cart__card_close" href=""><img src="images/shopping_cart/close.svg" alt="button_close"></a> 
+                <div class="shopping_cart__total">
+                    <p class="shopping_cart__total_text_sub">SUB TOTAL<span style="margin-left: 25px;">$900</span></p>
+                    <p class="shopping_cart__total_text_grand">GRAND TOTAL<span style="margin-left: 25px; color:#F16D7F; font-weight: 400; ">$900</span></p>
+                    <div class="shopping_cart__total_line"></div>
+                        <a href="#" class="shopping_cart__total_button">PROCEED TO CHECKOUT</a> 
+                </div>
             </div>
-            <div class="shopping_cart_button">
-                    <a href="#" class="shopping_cart__button_setting">CLEAR SHOPPING CART</a>
-                    <a href="#" class="shopping_cart__button_setting">CONTINUE SHOPPING</a>
-            </div>
-        </div>
-        <div class="shopping_cart_adress">
-            <div class="shopping_cart__shipping_adress">
-                <form action="#">
-                    <h3 class="shopping_cart__input_header">SHIPPING ADRESS</h3>
-                    <div class="shopping_cart__input">
-                        <input class="shopping_cart__input_adress" type="text" placeholder="Bangladesh">
-                        <input class="shopping_cart__input_adress" type="text" placeholder="State">
-                        <input class="shopping_cart__input_adress" type="number" min="0" max="999999" placeholder="Postcode / Zip">
-                    </div>
-                    <div class="shopping_cart__button">
-                        <a href="" class="shopping_cart__input_button">GET A QUOTE</a>
-                    </div>
-                </form>
-            </div>
-            <div class="shopping_cart__total">
-                <p class="shopping_cart__total_text_sub">SUB TOTAL<span style="margin-left: 25px;">$900</span></p>
-                <p class="shopping_cart__total_text_grand">GRAND TOTAL<span style="margin-left: 25px; color:#F16D7F; font-weight: 400; ">$900</span></p>
-                <div class="shopping_cart__total_line"></div>
-                    <a href="#" class="shopping_cart__total_button">PROCEED TO CHECKOUT</a> 
-            </div>
-        </div>
-      </div>  
-    </main>
+          </div> 
+    </section>
     <footer>
     <div class="footer">
-        <div class="top_info">
-            <div class="footer__block_info container">
-                <div class="footer__block_info_delivery">
-                    <img src="images/footer/Forma 1.svg" alt="delivery">
-                    <p class="footer__block_info_header_car">Free Delivery</p>
-                    <p class="footer__block_info_text">Worldwide delivery on all. Authorit tively morph next-generation
-                        innov tion with extensive models.</p>
-                </div>
-                <div class="footer__block_info_sales">
-                    <img src="images/footer/Forma 2.svg" alt="sale">
-                    <p class="footer__block_info_header">Sales & discounts</p>
-                    <p class="footer__block_info_text">Worldwide delivery on all. Authorit tively morph next-generation
-                        innov tion with extensive models.</p>
-                </div>
-                <div class="footer__block_info_quality">
-                    <img src="images/footer/Forma 3.svg" alt="quality">
-                    <p class="footer__block_info_header_quality">Quality assurance</p>
-                    <p class="footer__block_info_text">Worldwide delivery on all. Authorit tively morph next-generation
-                        innov tion with extensive models.</p>
-                </div>
-            </div>
-        </div>
         <div class="middle_info">
             <div class="communication container">
-                <div class="smile">
-                    <img class="smile_photo" src="images/footer/Intersect.png" alt="smile">
-                    <div class="text_vestibulum">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
-                        purus condimentum“</div>
-                </div>
-                <div class="email">
-                    <p class="email_text"><span class="text_suscribe">SUBSCRIBE</span><br><span
-                            class="text_PROMOTION">FOR OUR NEWLETTER AND PROMOTION</span></p>
-                    <div class="email_form">
-                        <input type="emai" class="email_form__input" placeholder="Enter Your Email">
-                        <a href="#" class="email_form__button">Subscribe</a>
-                    </div>
-                </div>
+                <figure class="smile">
+                        <img class="smile_photo" src="images/footer/Intersect.png" alt="smile">
+                        <div class="text_vestibulum">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
+                            purus condimentum“</div>
+                </figure>
+                <form action="#" class="email">
+                        <p class="email_text"><span class="text_suscribe">SUBSCRIBE</span><br><span
+                                class="text_PROMOTION">FOR OUR NEWLETTER AND PROMOTION</span></p>
+                        <div class="email_form">
+                            <input type="emai" class="email_form__input" placeholder="Enter Your Email">
+                            <a href="#" class="email_form__button">Subscribe</a>
+                        </div>
+                </form>
             </div>
         </div>
         <div class="bottom_info">
-            <div class="copy">
-                <p>© 2021 Brand All Rights Reserved.</p>
-            </div>
-            <div class="logos">
-                <a href="#"><i class="fa fa-brands fa-facebook-f logo"></i></a>
-                <a href="#"><i class="fa fa-brands fa-instagram logo"></i></a>
-                <a href="#"><i class="fa fa-brands fa-pinterest logo"></i></a>
-                <a href="#"><i class="fa fa-brands fa-twitter logo"></i></a>
+            <div class="footer_bottom_info container">
+                <div class="copy">
+                    <p>© 2021 Brand All Rights Reserved.</p>
+                </div>
+                <nav>
+                    <div class="logos">
+                        <a href="#"><i class="fa fa-brands fa-facebook-f logo"></i></a>
+                        <a href="#"><i class="fa fa-brands fa-instagram logo"></i></a>
+                        <a href="#"><i class="fa fa-brands fa-pinterest logo"></i></a>
+                        <a href="#"><i class="fa fa-brands fa-twitter logo"></i></a>
+                    </div>
+                </nav>
             </div>
         </div>
     </div>
 </footer>
+</div>
 </body>
 </html>
